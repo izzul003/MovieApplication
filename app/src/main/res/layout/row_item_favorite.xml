@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_page"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPosterFavorite"
+        android:layout_width="178dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_dummy_favorite_1" />
+
+    <TextView
+        android:id="@+id/tvTitleFavorite"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/sf_pro_semibold"
+        android:text="Itawewon Class"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/ivPosterFavorite"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvYearFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sf_pro_medium"
+        android:text="2022"
+        android:textColor="@color/text_gray"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ivPosterFavorite"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleFavorite" />
+
+    <TextView
+        android:id="@+id/tvGenreFavorite"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_pro_regular"
+        android:text="Itawewon Class"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/ivPosterFavorite"
+        app:layout_constraintTop_toBottomOf="@+id/tvYearFavorite" />
+
+    <ImageView
+        android:id="@+id/btnDeleteFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_favorite_green" />
+</androidx.constraintlayout.widget.ConstraintLayout>

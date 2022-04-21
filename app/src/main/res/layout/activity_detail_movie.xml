@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail_movie.DetailMovieActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/black"
+        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="563dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivBannerDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_dummy_film"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:clickable="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_green" />
+
+        <TextView
+            android:id="@+id/tvTitleBannerDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="141dp"
+            android:fontFamily="@font/sf_pro_bold"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/rlImageDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="title" />
+
+        <TextView
+            android:id="@+id/tvHoursMovieDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/sf_pro_regular"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleBannerDetail"
+            tools:text="1 H" />
+
+        <TextView
+            android:id="@+id/tvMinutesMovieDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/sf_pro_regular"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tvHoursMovieDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleBannerDetail"
+            tools:text="1 H" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/bg_card_transparant"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="2dp"
+            app:layout_constraintStart_toEndOf="@+id/tvMinutesMovieDetail"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleBannerDetail">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HD"
+                android:textColor="@color/white"
+                android:textFontWeight="700"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvGenres"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal"
+            tools:listitem="@layout/row_item_genre"
+            app:layout_constraintTop_toBottomOf="@+id/tvMinutesMovieDetail" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWatchMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="30dp"
+            android:text="Watch Trailer"
+            android:theme="@style/BrandButtonStyle"
+            android:paddingVertical="8dp"
+            android:backgroundTint="@color/main_green"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_play"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toBottomOf="@+id/rlImageDetail"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="30dp"
+            android:textAllCaps="false"
+            android:text="Add To Favorite"
+            android:theme="@style/BrandButtonStyle"
+            android:paddingVertical="7dp"
+            android:paddingHorizontal="10dp"
+            android:backgroundTint="@android:color/transparent"
+            app:icon="@drawable/ic_baseline_add_green"
+            app:iconTint="@color/main_green"
+            app:iconGravity="textStart"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/text_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/rlImageDetail"
+            app:layout_constraintStart_toEndOf="@+id/btnWatchMovie"  />
+
+        <TextView
+            android:id="@+id/tvOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/sf_pro_regular"
+            android:textColor="@color/text_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rlImageDetail"
+            tools:text="Overview" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/sf_pro_bold"
+            android:text="Casts"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOverview" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCasts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            tools:listitem="@layout/row_item_cast"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

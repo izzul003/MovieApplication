@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/background_page"
+    android:layout_marginBottom="18dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rlImagePosterDetail"
+        android:layout_width="160dp"
+        android:layout_height="214dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:id="@+id/ivPosterDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_dummy_popular_detail"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/bg_card_green"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlImagePosterDetail">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textFontWeight="700"
+            android:textSize="10sp"
+            android:text="HD" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/sf_pro_semibold"
+        android:text="Maze Runner - Guide To ..."
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlImagePosterDetail" />
+
+    <TextView
+        android:id="@+id/tvDirector"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_regular"
+        android:text="Dylan O'Brien, Kaya Scodelario, Will Poulter "
+        android:textColor="@color/text_gray"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
