@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res"/><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\build\generated\res\rs\debug"/><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res"><file name="bg_card_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\bg_card_green.xml" qualifiers="" type="drawable"/><file name="bg_card_transparant" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\bg_card_transparant.xml" qualifiers="" type="drawable"/><file name="bottom_nav_item_color" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\bottom_nav_item_color.xml" qualifiers="" type="drawable"/><file name="gradient" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\gradient.xml" qualifiers="" type="drawable"/><file name="ic_baseline_add_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_add_green.xml" qualifiers="" type="drawable"/><file name="ic_baseline_arrow_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_arrow_green.xml" qualifiers="" type="drawable"/><file name="ic_baseline_delete_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_delete_green.xml" qualifiers="" type="drawable"/><file name="ic_baseline_favorite_gray" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_favorite_gray.xml" qualifiers="" type="drawable"/><file name="ic_baseline_favorite_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_favorite_green.xml" qualifiers="" type="drawable"/><file name="ic_baseline_notifications_white" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_notifications_white.xml" qualifiers="" type="drawable"/><file name="ic_baseline_search_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_search_green.xml" qualifiers="" type="drawable"/><file name="ic_baseline_search_white" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_baseline_search_white.xml" qualifiers="" type="drawable"/><file name="ic_dummy_favorite_1" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_favorite_1.png" qualifiers="" type="drawable"/><file name="ic_dummy_favorite_2" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_favorite_2.png" qualifiers="" type="drawable"/><file name="ic_dummy_favorite_3" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_favorite_3.png" qualifiers="" type="drawable"/><file name="ic_dummy_film" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_film.png" qualifiers="" type="drawable"/><file name="ic_dummy_popular_detail" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_popular_detail.png" qualifiers="" type="drawable"/><file name="ic_dummy_popular_movie" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_dummy_popular_movie.png" qualifiers="" type="drawable"/><file name="ic_favorite" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_favorite.xml" qualifiers="" type="drawable"/><file name="ic_home" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_home.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_location" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_location.xml" qualifiers="" type="drawable"/><file name="ic_play" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_play.xml" qualifiers="" type="drawable"/><file name="ic_popular" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\ic_popular.xml" qualifiers="" type="drawable"/><file name="shape_eclips_green" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\shape_eclips_green.xml" qualifiers="" type="drawable"/><file name="shape_eclips_transparant" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable\shape_eclips_transparant.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_detail_movie" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\activity_detail_movie.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="favorite_fragment" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\favorite_fragment.xml" qualifiers="" type="layout"/><file name="home_fragment" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\home_fragment.xml" qualifiers="" type="layout"/><file name="location_fragment" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\location_fragment.xml" qualifiers="" type="layout"/><file name="popular_fragment" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\popular_fragment.xml" qualifiers="" type="layout"/><file name="row_item_banner" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_banner.xml" qualifiers="" type="layout"/><file name="row_item_cast" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_cast.xml" qualifiers="" type="layout"/><file name="row_item_favorite" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_favorite.xml" qualifiers="" type="layout"/><file name="row_item_genre" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_genre.xml" qualifiers="" type="layout"/><file name="row_item_popular_movies" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_popular_movies.xml" qualifiers="" type="layout"/><file name="row_item_popular_movies_detail" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\layout\row_item_popular_movies_detail.xml" qualifiers="" type="layout"/><file name="bottom_nav_menu" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\menu\bottom_nav_menu.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-hdpi\ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-mdpi\ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xhdpi\ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="mobile_navigation" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\navigation\mobile_navigation.xml" qualifiers="" type="navigation"/><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values\attrs.xml" qualifiers=""><attr format="reference" name="EmptyStateLayout"/><declare-styleable name="EmptyStateLayout">
+        <attr format="string" name="title"/>
+        <attr format="string" name="description"/>
+        <attr format="integer" name="image"/>
+
+    </declare-styleable><attr format="reference" name="shadowLayoutStyle"/><declare-styleable name="ShadowLayout">
+        
+        <attr format="float" name="shadow_radius"/>
+        
+        <attr format="dimension" name="shadow_x_shift"/>
+        
+        <attr format="dimension" name="shadow_y_shift"/>
+        
+        <attr format="color" name="shadow_color"/>
+        
+        <attr format="boolean" name="shadow_with_content"/>
+        
+        <attr format="boolean" name="shadow_with_color"/>
+        
+        <attr format="float" name="shadow_downscale"/>
+        
+        <attr format="boolean" name="shadow_with_dpi_scale"/>
+        
+        <attr format="boolean" name="shadow_with_css_scale"/>
+        
+        <attr format="boolean" name="shadow_cast_only_background"/>
+    </declare-styleable></file><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values\colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="main_black">#202123</color><color name="black2">#00ffffff</color><color name="background_page">#25272A</color><color name="text_gray">#bfbfbf99</color><color name="white">#FFFFFFFF</color><color name="main_green">#04837C</color></file><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MyMoviewDb</string></file><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values\style.xml" qualifiers=""><style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="selectableItemBackground">@color/main_green</item>
+    </style><style name="BrandButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/main_green</item>
+        <item name="android:textColor">@color/white</item>
+    </style></file><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyMoviewDb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:buttonStyle">@style/BrandButtonStyle</item>
+    </style><style name="Theme.MyMoviewDb.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style><style name="Theme.MyMoviewDb.NoActionBar.Translucent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style></file><file path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.MyMoviewDb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style><style name="Theme.MyMoviewDb.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style><style name="Theme.MyMoviewDb.NoActionBar.Translucent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style></file><file name="font" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\font.xml" qualifiers="" type="font"/><file name="sf_pro_black" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\sf_pro_black.otf" qualifiers="" type="font"/><file name="sf_pro_bold" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\sf_pro_bold.otf" qualifiers="" type="font"/><file name="sf_pro_medium" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\sf_pro_medium.otf" qualifiers="" type="font"/><file name="sf_pro_regular" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\sf_pro_regular.otf" qualifiers="" type="font"/><file name="sf_pro_semibold" path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\main\res\font\sf_pro_semibold.otf" qualifiers="" type="font"/></source><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\build\generated\res\rs\debug"/><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\izzul\AndroidStudioProjects\MyMoviewDb\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ShadowLayout">
+        
+        <attr format="float" name="shadow_radius"/>
+        
+        <attr format="dimension" name="shadow_x_shift"/>
+        
+        <attr format="dimension" name="shadow_y_shift"/>
+        
+        <attr format="color" name="shadow_color"/>
+        
+        <attr format="boolean" name="shadow_with_content"/>
+        
+        <attr format="boolean" name="shadow_with_color"/>
+        
+        <attr format="float" name="shadow_downscale"/>
+        
+        <attr format="boolean" name="shadow_with_dpi_scale"/>
+        
+        <attr format="boolean" name="shadow_with_css_scale"/>
+        
+        <attr format="boolean" name="shadow_cast_only_background"/>
+    </declare-styleable><declare-styleable name="EmptyStateLayout">
+        <attr format="string" name="title"/>
+        <attr format="string" name="description"/>
+        <attr format="integer" name="image"/>
+
+    </declare-styleable></configuration></mergedItems></merger>

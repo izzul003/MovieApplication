@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="reference" name="EmptyStateLayout"/>
+    <attr format="reference" name="shadowLayoutStyle"/>
+    <color name="background_page">#25272A</color>
+    <color name="black">#FF000000</color>
+    <color name="black2">#00ffffff</color>
+    <color name="main_black">#202123</color>
+    <color name="main_green">#04837C</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_gray">#bfbfbf99</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MyMoviewDb</string>
+    <style name="BrandButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/main_green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Theme.MyMoviewDb" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:buttonStyle">@style/BrandButtonStyle</item>
+    </style>
+    <style name="Theme.MyMoviewDb.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyMoviewDb.NoActionBar.Translucent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="selectableItemBackground">@color/main_green</item>
+    </style>
+    <declare-styleable name="EmptyStateLayout">
+        <attr format="string" name="title"/>
+        <attr format="string" name="description"/>
+        <attr format="integer" name="image"/>
+
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <!-- The radius of the gaussian blur in float -->
+        <attr format="float" name="shadow_radius"/>
+        <!-- Shift on the horizontal axis in dp -->
+        <attr format="dimension" name="shadow_x_shift"/>
+        <!-- Shift on the vertical axis in dp -->
+        <attr format="dimension" name="shadow_y_shift"/>
+        <!-- Color of the casted shadow -->
+        <attr format="color" name="shadow_color"/>
+        <!-- Keep all the subview colors in the blur -->
+        <attr format="boolean" name="shadow_with_content"/>
+        <!-- Keep all the subview colors in the blur  -->
+        <attr format="boolean" name="shadow_with_color"/>
+        <!-- Downscale of the internal bitmap that render the shadow -->
+        <attr format="float" name="shadow_downscale"/>
+        <!-- Downscale the internal bitmap by the current smartphone dpi -->
+        <attr format="boolean" name="shadow_with_dpi_scale"/>
+        <!-- Downscale by 5/3 more -->
+        <attr format="boolean" name="shadow_with_css_scale"/>
+        <!-- Only render the background and not the view as shadow -->
+        <attr format="boolean" name="shadow_cast_only_background"/>
+    </declare-styleable>
+</resources>

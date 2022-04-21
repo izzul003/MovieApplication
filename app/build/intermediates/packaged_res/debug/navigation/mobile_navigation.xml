@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mymoviewdb.ui.home.HomeFragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.example.mymoviewdb.ui.popular.PopularFragment"
+        tools:layout="@layout/popular_fragment" />
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.example.mymoviewdb.ui.favorite.FavoriteFragment"
+        tools:layout="@layout/favorite_fragment" />
+    <fragment
+        android:id="@+id/nav_lainnya"
+        android:name="com.example.mymoviewdb.ui.location.LocationFragment"
+        tools:layout="@layout/location_fragment" />
+</navigation>

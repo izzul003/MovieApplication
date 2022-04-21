@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_favorite.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\location_fragment.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\location_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_cast.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_cast.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail_movie.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\activity_detail_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_genre.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_genre.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_banner.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_banner.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_popular_movies_detail.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_popular_movies_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popular_fragment.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\popular_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_item_popular_movies.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\row_item_popular_movies.xml"
+    },
+    {
+        "merged": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\favorite_fragment.xml",
+        "source": "C:\\Users\\izzul\\AndroidStudioProjects\\MyMoviewDb\\app\\src\\main\\res\\layout\\favorite_fragment.xml"
+    }
+]
